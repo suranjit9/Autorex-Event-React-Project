@@ -5,6 +5,8 @@ import Home from "../Leout/Home";
 import Services from "../Leout/Component/Services/Services";
 import About from "../Leout/Component/About/About";
 import Contact from "../Leout/Component/Contact/Contact";
+import SignUP from "../Leout/Component/SingUP/SingUp";
+import Login from "../Leout/Component/Login/Login";
 
 
   const router = createBrowserRouter([
@@ -28,6 +30,14 @@ import Contact from "../Leout/Component/Contact/Contact";
         {
             path:'/Contact',
             element:<Contact/>
+        },
+        {
+          path:'/singUp',
+          element:<SignUP/>
+        },
+        {
+          path:'/Login',
+          element:<Login/>
         }
       ]
     },

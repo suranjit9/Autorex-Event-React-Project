@@ -1,8 +1,11 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import DefoultUser from "../../assets/img/user.png"
+import { useContext } from "react";
+import { authContext } from "../../UseContext/AuthProvider/AuthProvider";
 
 
 const Header = () => {
+    const {user}= useContext(authContext);
     const naveLink = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/Services'}>Services</NavLink></li>
@@ -33,10 +36,10 @@ const Header = () => {
                         <img src={DefoultUser} />
                     </div>
                 </label>
-                {/* {
-                    user ? <button onClick={handelSingOut} className="btn btn-sm bg-red-500 text-white hover:text-black">Log Out</button> 
+                {
+                    user ? <button  className="btn btn-sm bg-red-500 text-white hover:text-black">Log Out</button> 
                     :<Link to='/LogIn'><button className="btn btn-sm">Log IN</button></Link>
-                } */}
+                }
                 
             </div>
         </div>
