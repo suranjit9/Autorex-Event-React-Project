@@ -1,0 +1,61 @@
+{
+    "services-dis": [
+      {
+        "id": 1,
+        "title": "Performance Upgrade",
+        "thumbImg": "performance_upgrade_thumb.jpg",
+        "description": "Enhance your vehicle's performance with our professional upgrade services.",
+        "benefits": "Improved speed, power, and overall vehicle performance.",
+        "image": "performance_upgrade_image.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Break Repair & Service",
+        "thumbImg": "break_repair_thumb.jpg",
+        "description": "Trust us to keep your brakes in top-notch condition for your safety.",
+        "benefits": "Reliable and safe braking performance for your vehicle.",
+        "image": "break_repair_image.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Engine Service & Repair",
+        "thumbImg": "engine_service_thumb.jpg",
+        "description": "Keep your engine running smoothly with our professional service and repair solutions.",
+        "benefits": "Optimal engine performance and longevity.",
+        "image": "engine_service_image.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Tyre & Wheels",
+        "thumbImg": "tyre_wheels_thumb.jpg",
+        "description": "Ensure your vehicle's stability and safety with our tire and wheel services.",
+        "benefits": "Improved traction, handling, and tire longevity.",
+        "image": "tyre_wheels_image.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Power & Energy",
+        "thumbImg": "power_energy_thumb.jpg",
+        "description": "Explore energy-efficient and eco-friendly solutions for your vehicle's power needs.",
+        "benefits": "Reduce environmental impact and save on energy costs.",
+        "image": "power_energy_image.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Denting & Painting",
+        "thumbImg": "denting_painting_thumb.jpg",
+        "description": "Restore the appearance of your vehicle with our expert denting and painting services.",
+        "benefits": "Aesthetic improvements and protection against corrosion.",
+        "image": "denting_painting_image.jpg"
+      },
+      {
+        "id": 7,
+        "title": "General Service & Washing",
+        "thumbImg": "general_service_thumb.jpg",
+        "description": "Give your vehicle a complete service and a sparkling clean wash.",
+        "benefits": "Regular maintenance and a fresh, clean look for your vehicle.",
+        "image": "general_service_image.jpg"
+      }
+    ]
+  }
+  

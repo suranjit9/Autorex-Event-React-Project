@@ -4,7 +4,7 @@ import Header from "../Leout/Header/Header";
 
 const Root = () => {
     return (
-        <div>
+        <div className="max-w-full mx-auto">
             <Header/>
             <Outlet/>
             

@@ -1,9 +1,12 @@
+import HeroSlider from "./Component/Slider/HeroSlider";
+
 
 
 const Home = () => {
     return (
         <div>
-            <h1 className="text-xl text-center">Hello Home </h1>
+            <HeroSlider/>
+            
         </div>
     );
 };

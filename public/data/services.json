@@ -1,0 +1,33 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Performance Upgrade"
+      },
+      {
+        "id": 2,
+        "title": "Break Repair & Service"
+      },
+      {
+        "id": 3,
+        "title": "Engine Service & Repair"
+      },
+      {
+        "id": 4,
+        "title": "Tyre & Wheels"
+      },
+      {
+        "id": 5,
+        "title": "Power & Energy"
+      },
+      {
+        "id": 6,
+        "title": "Denting & Painting"
+      },
+      {
+        "id": 7,
+        "title": "General Service & Washing"
+      }
+    ]
+  }
+  
