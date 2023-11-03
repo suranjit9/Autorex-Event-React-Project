@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Header = () => {
     const {user,logOut}= useContext(authContext);
-    console.log(user)
+    // console.log(user)
     const naveLink = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
         <li><NavLink to={'/Services'}>Services</NavLink></li>

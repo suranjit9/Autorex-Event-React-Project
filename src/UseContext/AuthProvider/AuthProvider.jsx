@@ -10,6 +10,10 @@ const AuthProvider = ({children}) => {
     const [user, setUser] = useState(null);
     const [loder, setLoder]= useState(true);
     const googleProvider = new GoogleAuthProvider();
+    //---------------------------------Json file Lode useState Start--------------------------------- 
+    const [servicesTitle, setServicesTitle] = useState([]);
+    const [servicesDis, setServicesDis] = useState([]);
+    //---------------------------------Json file Lode useState End--------------------------------- 
 
 
     const userCreate =(email, password, name)=>{
@@ -41,8 +45,19 @@ const AuthProvider = ({children}) => {
         });
         return ()=>{unsubscribe();} 
     },[])
+// ---------------------------------Json file Lode Start---------------------------------
 
-
+useEffect(()=>{
+    fetch ('../../../public/data/services.json')
+        .then(res => res.json())
+        .then(data => setServicesTitle(data))
+},[])
+useEffect(()=>{
+    fetch ('../../../public/data/discription.json')
+        .then(res => res.json())
+        .then(data => setServicesDis(data))
+},[])
+// ---------------------------------Json file Lode Start---------------------------------
     // Export EveryWhere
     const authInfo ={
         user,
@@ -52,6 +67,8 @@ const AuthProvider = ({children}) => {
         logOut,
         passwordRestor,
         googleSingup,
+        servicesTitle,
+        servicesDis,
     };
     return (
         <authContext.Provider value={authInfo}>

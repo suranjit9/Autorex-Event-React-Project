@@ -1,33 +1,38 @@
-{
-    "services": [
-      {
-        "id": 1,
-        "title": "Performance Upgrade"
-      },
-      {
-        "id": 2,
-        "title": "Break Repair & Service"
-      },
-      {
-        "id": 3,
-        "title": "Engine Service & Repair"
-      },
-      {
-        "id": 4,
-        "title": "Tyre & Wheels"
-      },
-      {
-        "id": 5,
-        "title": "Power & Energy"
-      },
-      {
-        "id": 6,
-        "title": "Denting & Painting"
-      },
-      {
-        "id": 7,
-        "title": "General Service & Washing"
-      }
-    ]
-  }
-  
+ [
+    {
+      "id": 1,
+      "title": "Performance Upgrade",
+      "Img": "https://i.ibb.co/5TSsr4D/Screenshot-2023-11-03-130231.png"
+    },
+    {
+      "id": 2,
+      "title": "Break Repair & Service",
+      "Img": "https://i.ibb.co/JWYhH9d/Screenshot-130454.png"
+    },
+    {
+      "id": 3,
+      "title": "Engine Service & Repair",
+      "Img": "https://i.ibb.co/KbZ411d/Screenshot-2023-11-03-130312.png"
+    },
+    {
+      "id": 4,
+      "title": "Tyre & Wheels",
+      "Img": "https://i.ibb.co/drWMVZJ/Screenshot-2023-130522.png"
+    },
+    {
+      "id": 5,
+      "title": "Power & Energy",
+      "Img": "https://i.ibb.co/QfmpRLC/Screenshot-2023-11-03-130400.png"
+    },
+    {
+      "id": 6,
+      "title": "Denting & Painting",
+      "Img": "https://i.ibb.co/JWYhH9d/Screenshot-130454.png"
+    },
+    {
+      "id": 7,
+      "title": "General Service & Washing",
+      "Img": "https://i.ibb.co/drWMVZJ/Screenshot-2023-130522.png"
+    }
+  ]
+

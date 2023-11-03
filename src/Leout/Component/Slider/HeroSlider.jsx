@@ -18,7 +18,7 @@ const HeroSlider = () => {
                 </div>
             </div>
         </div>
-        <div className='grid md:grid-cols-5 w-9/12 mx-auto shadow-2xl absolute -mt-16 ml-[13%]'>
+        <div className='grid md:grid-cols-5 w-9/12 mx-auto shadow-2xl -mt-20 '>
             <div className='p-10 md:col-span-2 bg-red-600  md:p-24'>
                 <h3 className='text-4xl font-semibold text-white'>
                 15 Years of <br />

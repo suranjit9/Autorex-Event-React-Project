@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 import swal from "sweetalert";
 import { FcGoogle } from 'react-icons/FC';
