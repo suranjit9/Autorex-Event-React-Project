@@ -1,13 +1,16 @@
+import { useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
 
 const Booking = () => {
+  const negivet = useNavigate();
     const handleclick =(e)=>{
       e.preventDefault();
         const email = e.target.email.value;
         const name = e.target.name.value;
         const password = e.target.password.value;
         console.log('click okkkkkkkk',email, name, password)
-        swal("Good job!", "success");
+        swal("Good job!", "success","We are contact Very Soon","Thank You");
+        negivet('/Services');
     }
     return (
         <div className="hero min-h-screen bg-base-200">
@@ -40,7 +43,7 @@ const Booking = () => {
           </label>
         </div>
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Login</button>
+          <button className="btn btn-primary">Booking</button>
         </div>
       </form>
     </div>

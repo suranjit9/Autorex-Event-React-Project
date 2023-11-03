@@ -9,6 +9,8 @@ import SignUP from "../Leout/Component/SingUP/SingUp";
 import Login from "../Leout/Component/Login/Login";
 import ServicesCard from "../Leout/Component/Services/ServicesCard";
 import Booking from "../Leout/Component/Booking/Booking";
+import Protected from "../Prived/Protected";
+import DitalsPage from "../Leout/Component/Services/DitalsPage";
 
 
   const router = createBrowserRouter([
@@ -23,12 +25,12 @@ import Booking from "../Leout/Component/Booking/Booking";
         },
         {
           path:'/Services',
-            element:<Services/>,
+            element:<Services></Services>
             
         },
         {
             path:'/Services/:id',
-            element:<ServicesCard/>
+            element:<Protected><ServicesCard/></Protected>
         },
         {
             path:'/About',
@@ -48,7 +50,11 @@ import Booking from "../Leout/Component/Booking/Booking";
         },
         {
           path:'/Booking',
-          element:<Booking/>
+          element:<Protected><Booking></Booking></Protected>
+        },
+        {
+          path:'/DitalsPage/:id',
+          element:<Protected><DitalsPage/></Protected>
         }
       ]
     },

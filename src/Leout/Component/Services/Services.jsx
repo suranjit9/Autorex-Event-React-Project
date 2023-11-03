@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { authContext } from "../../../UseContext/AuthProvider/AuthProvider";
+import { Link } from "react-router-dom";
 
 
 const Services = () => {
@@ -28,9 +29,11 @@ const Services = () => {
                                     <h1 className="text-green-500 font-semibold text-base">Benefits :</h1>
                                     <p>{data.benefits}</p>
                                 </div>
-                                <div className="card-actions justify-end">
-                                    <button className="btn btn-sm bg-red-500 text-white hover:bg-green-400">Booking Now</button>
+                                <div className="card-actions justify-between">
+                                    <Link to={`/DitalsPage/${data.id}`}><h2 className="text-red-500 text-xl font-medium">See Ditals</h2></Link>
+                                    <Link to={'/Booking'}><button className="btn btn-sm bg-red-500 text-white hover:bg-green-400">Booking Now</button></Link>
                                 </div>
+                                
                             </div>
                         </div>
                     })

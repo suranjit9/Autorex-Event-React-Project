@@ -1,5 +1,6 @@
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import sign from '../../../assets/img/signature.png'
+import { Link } from 'react-router-dom';
 
 const HeroSlider = () => {
 
@@ -14,7 +15,7 @@ const HeroSlider = () => {
                         so confident in our level of service that we back it up
                         <br />
                         with a good quality.</p>
-                    <button className="btn text-white bg-red-600 hover:bg-red-400">Book a Schedule<span><AiOutlineArrowRight></AiOutlineArrowRight></span></button>
+                    <Link to={'/Booking'}><button className="btn text-white bg-red-600 hover:bg-red-400">Book a Schedule<span><AiOutlineArrowRight></AiOutlineArrowRight></span></button></Link>
                 </div>
             </div>
         </div>
