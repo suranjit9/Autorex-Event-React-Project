@@ -1,61 +1,60 @@
-{
-    "services-dis": [
-      {
+[
+    {
         "id": 1,
         "title": "Performance Upgrade",
-        "thumbImg": "performance_upgrade_thumb.jpg",
-        "description": "Enhance your vehicle's performance with our professional upgrade services.",
+        "thumbImg": "https://i.ibb.co/SsccJq0/image-7-1.jpg",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
         "benefits": "Improved speed, power, and overall vehicle performance.",
         "image": "performance_upgrade_image.jpg"
       },
       {
         "id": 2,
         "title": "Break Repair & Service",
-        "thumbImg": "break_repair_thumb.jpg",
-        "description": "Trust us to keep your brakes in top-notch condition for your safety.",
+        "thumbImg": "https://i.ibb.co/0MpS0fd/image-8-1.jpg",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
         "benefits": "Reliable and safe braking performance for your vehicle.",
         "image": "break_repair_image.jpg"
       },
       {
         "id": 3,
         "title": "Engine Service & Repair",
-        "thumbImg": "engine_service_thumb.jpg",
-        "description": "Keep your engine running smoothly with our professional service and repair solutions.",
+        "thumbImg": "https://i.ibb.co/MZ3TGNs/image-9.jpg",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
         "benefits": "Optimal engine performance and longevity.",
         "image": "engine_service_image.jpg"
       },
       {
         "id": 4,
         "title": "Tyre & Wheels",
-        "thumbImg": "tyre_wheels_thumb.jpg",
-        "description": "Ensure your vehicle's stability and safety with our tire and wheel services.",
+        "thumbImg": "https://i.ibb.co/5kDQRjF/news-1.jpg",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
         "benefits": "Improved traction, handling, and tire longevity.",
         "image": "tyre_wheels_image.jpg"
       },
       {
         "id": 5,
         "title": "Power & Energy",
-        "thumbImg": "power_energy_thumb.jpg",
-        "description": "Explore energy-efficient and eco-friendly solutions for your vehicle's power needs.",
+        "thumbImg": "https://i.ibb.co/fdCTp1F/news-2.jpg",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
         "benefits": "Reduce environmental impact and save on energy costs.",
         "image": "power_energy_image.jpg"
       },
       {
         "id": 6,
         "title": "Denting & Painting",
-        "thumbImg": "denting_painting_thumb.jpg",
-        "description": "Restore the appearance of your vehicle with our expert denting and painting services.",
+        "thumbImg": "https://i.ibb.co/McGhTZy/news-3.jpg",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
         "benefits": "Aesthetic improvements and protection against corrosion.",
         "image": "denting_painting_image.jpg"
       },
       {
         "id": 7,
         "title": "General Service & Washing",
-        "thumbImg": "general_service_thumb.jpg",
-        "description": "Give your vehicle a complete service and a sparkling clean wash.",
+        "thumbImg": "https://i.ibb.co/sF1Pf6h/project-1.jpg",
+        "description": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.",
         "benefits": "Regular maintenance and a fresh, clean look for your vehicle.",
         "image": "general_service_image.jpg"
       }
-    ]
-  }
+]
+
   

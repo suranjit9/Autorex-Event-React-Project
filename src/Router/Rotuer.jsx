@@ -7,6 +7,8 @@ import About from "../Leout/Component/About/About";
 import Contact from "../Leout/Component/Contact/Contact";
 import SignUP from "../Leout/Component/SingUP/SingUp";
 import Login from "../Leout/Component/Login/Login";
+import ServicesCard from "../Leout/Component/Services/ServicesCard";
+import Booking from "../Leout/Component/Booking/Booking";
 
 
   const router = createBrowserRouter([
@@ -17,11 +19,16 @@ import Login from "../Leout/Component/Login/Login";
       children:[
         {
             path:'/',
-            element:<Home/>
+            element:<Home/>,
         },
         {
-            path:'/Services',
-            element:<Services/>
+          path:'/Services',
+            element:<Services/>,
+            
+        },
+        {
+            path:'/Services/:id',
+            element:<ServicesCard/>
         },
         {
             path:'/About',
@@ -38,6 +45,10 @@ import Login from "../Leout/Component/Login/Login";
         {
           path:'/Login',
           element:<Login/>
+        },
+        {
+          path:'/Booking',
+          element:<Booking/>
         }
       ]
     },
